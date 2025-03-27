@@ -69,28 +69,18 @@
                         Titolo versione italiana </div>
 
                 </div>
-                <div class="row pb-3 border-bottom">
                     <div class="col-12 col-lg-4 mt-3">
-                        <label for="inputGenre" class="form-label">Genere</label>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <button class="accordion-button collapsed p-1" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    Scegli il genere
-                                </button>
-
-                                <!--   <div id="collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Un giorno</strong>quando saprò usare javascript, si potrà leggere
-                                    questa parte qui<code>.accordion-body</code>
-                                </div>
-                            </div>
-                             -->
-                            </div>
 
 
-                        </div>
+
+                        <label for="selectGenre" class="form-label">Genere</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Scegli il genere</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    
                     </div>
 
                     <div class="col-12 col-lg-4 mt-3">
@@ -104,12 +94,11 @@
                         <input type="text" minlenght="10" maxlenght="13" id="inputISBN" class="form-control"
                             aria-describedby="ISBNCode" placeholder="Inserisci il codice ISBN#">
                     </div>
-                </div>
 
-                <div class="col-12 mt-3">
-                    <label for="inputNotes" class="form-label">Note</label>
-                    <input type="text" id="inputNotes" class="form-control" aria-describedby="Notes"
-                        placeholder="Inserisci eventuali note sul libro">
+                <div class="col-12 mt-3 pt-3 border-top">
+                    <label for="exampleFormControlTextarea1" class="form-label">Note</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
+                   
 
                 </div>
                 <div class="col-12 mt-3 mb-3">
